@@ -54,4 +54,3 @@ response = send_signin_request(base_url, plugin_path, query_params, custom_cooki
 # 输出响应
 print(response.status_code)
 print(response.text)
-input("输入按键退出命令")
